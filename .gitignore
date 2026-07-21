@@ -1,0 +1,26 @@
+.env
+__pycache__/
+vendor/
+figures-scratch/
+.DS_Store
+
+# secrets
+.env
+.env.*
+.vercel
+
+# Vercel build output (regenerate: bash src/bin/build-vercel-site.sh)
+pathfinder/public/
+deliverables/public/
+
+# LaTeX build artifacts
+latex/*.aux
+latex/*.bbl
+latex/*.blg
+latex/*.fdb_latexmk
+latex/*.fls
+latex/*.log
+latex/*.out
+latex/*.synctex.gz
+latex/main.pdf
+
