@@ -1,6 +1,6 @@
 # C-Instrument: Automating RL Data Generation and Hillclimbing with a Constitution-Grid Instrument
 
-Code and constitution for *"C-Instrument: Automating RL Data Generation and Hillclimbing with a Constitution-Grid Instrument"*, published at the COLM 2026 Workshop on Efficient Reasoning. Previously titled C-Guard.
+Code and constitution for *"C-Instrument: Automating RL Data Generation and Hillclimbing with a Constitution-Grid Instrument"*, published at the COLM 2026 Workshop on Efficient Reasoning.
 
 [Paper (arXiv)](https://arxiv.org/abs/2608.00180) · [Blog](https://lilyzh.ng/writing/c-instrument/)
 
