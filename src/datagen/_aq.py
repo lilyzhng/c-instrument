@@ -50,7 +50,7 @@ def chat(model, system, user, max_tokens=2000, temperature=0.0):
                 _base(), data=payload,
                 headers={"Content-Type": "application/json",
                          "Authorization": f"Bearer {_key()}",
-                         "HTTP-Referer": "https://c-guard.local",
+                         "HTTP-Referer": "https://c-instrument.local",
                          "X-Title": "guard-model-datagen",
                          # gateway bot-blocks the default Python-urllib UA
                          # with 403 (seen 2026-07-20); a curl-ish UA passes

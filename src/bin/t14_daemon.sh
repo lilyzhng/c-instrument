@@ -5,7 +5,7 @@
 # Stops itself when all training containers are gone and every checkpoint is
 # evaluated. Log: results/t14/daemon.log
 set -u
-REPO=~/c-guard
+REPO=~/c-instrument
 EXPS=${EXPS:-"grpo-2k grpo-2k-lr5e7 grpo-2k-n16"}
 
 while true; do

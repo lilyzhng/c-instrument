@@ -8,7 +8,7 @@ set -euo pipefail
 
 : "${WANDB_API_KEY:?set WANDB_API_KEY in the env}"
 
-REPO=~/c-guard
+REPO=~/c-instrument
 VERL=~/verl
 IMG=verlai/verl:app-verl0.5-vllm0.10.0-mcore0.13.0-te2.2
 GPUS=${GPUS:-'"device=3,4"'}   # 0-2 host the T8 vLLM servers; keep off them

@@ -17,7 +17,7 @@ All pure logic is unit-tested in `src/tests/test_train.py` (run `python -m pytes
 
 ```bash
 # 1. on the node: pull this repo, prep data
-cd ~/c-guard && git pull
+cd ~/c-instrument && git pull
 python3 -m src.train.prepare_data --rows results/pilot.jsonl --out results/train_pilot.jsonl
 python3 -m src.train.to_parquet --rows results/train_pilot.jsonl --out-dir results/parquet   # needs pandas
 
@@ -25,7 +25,7 @@ python3 -m src.train.to_parquet --rows results/train_pilot.jsonl --out-dir resul
 IMG=verlai/verl:app-verl0.5-vllm0.10.0-mcore0.13.0-te2.2
 sudo docker run --rm --gpus all --shm-size=32g \
   -e WANDB_API_KEY="$WANDB_API_KEY" -e WANDB_ENTITY=<your-wandb-entity> \
-  -v ~/c-guard:/workspace \
+  -v ~/c-instrument:/workspace \
   "$IMG" bash /workspace/src/bin/run_grpo_smoke.sh
 ```
 

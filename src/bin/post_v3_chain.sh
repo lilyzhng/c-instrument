@@ -5,7 +5,7 @@
 # on the final v3 checkpoint (T30) -> did the amendment close the drift?;
 # 4. push results to W&B. Log: results/t14/post_v3.log
 set -u
-REPO=~/c-guard
+REPO=~/c-instrument
 cd "$REPO"
 
 echo "[post-v3] waiting for grpo-t13-v3 to finish..."

@@ -7,7 +7,7 @@
 # new checkpoints land. Results: results/t14/step_<N>.json
 set -euo pipefail
 
-REPO=~/c-guard
+REPO=~/c-instrument
 VERL=~/verl
 IMG=verlai/verl:app-verl0.5-vllm0.10.0-mcore0.13.0-te2.2
 VLLM_IMG=vllm/vllm-openai:latest

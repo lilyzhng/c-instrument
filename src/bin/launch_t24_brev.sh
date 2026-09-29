@@ -6,7 +6,7 @@
 # Rounds give per-arm variance (GRPO rollouts are stochastic; no seed knob).
 # Run ON the node:  nohup bash launch_t24_brev.sh > t24b.log 2>&1 &
 set -euo pipefail
-REPO=/home/user/c-guard
+REPO=/home/user/c-instrument
 VERL=/home/user/verl
 IMG=verlai/verl:app-verl0.5-vllm0.10.0-mcore0.13.0-te2.2
 cd "$REPO"
